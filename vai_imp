@@ -1,0 +1,5 @@
+from prod import Produto
+
+p1 = Produto ("Cueca Alfa", 1, 19.99, 300)
+    
+print("Oferta do dia: ", p1.obtem_nome())
